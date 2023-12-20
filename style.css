@@ -1,0 +1,36 @@
+div{
+    border: 2px solid green;
+    
+}
+.grid-container{
+    display: grid;
+    border: 2px solid red;
+    grid-template-columns: auto auto auto auto;
+
+}
+#Box-1{
+    background-color: rgb(209, 159, 255);
+    grid-row: 2/6;
+    text-align: center;
+    color: antiquewhite;
+}
+#Box-2{
+    background-color: rgb(143, 222, 240);
+    grid-column: 1/7;
+    text-align: center;
+    color: antiquewhite;
+}
+#Box-7{
+    background-color: rgb(253, 145, 246);
+    grid-column: 6 ;
+    grid-row: 2/6;
+    text-align: center;
+    color: antiquewhite;
+}
+#Box-20{
+    background-color: rgb(38, 67, 42);
+    grid-column: 1/7 ;
+    text-align: center;
+    color: antiquewhite;
+    
+}
